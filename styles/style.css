@@ -46,8 +46,7 @@
 
 /* featured area styles here */
 .featured{
-    padding: 0 200px;
-    margin: 150px 0 120px;
+    margin: 150px 200px 120px;
 }
 .section_title{
     color: #272727;
@@ -96,4 +95,33 @@
     font-weight: 700;
     line-height: 30px;
     text-decoration-line: underline;
+}
+
+/* support area styles here */
+
+.support{
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 200px;
+    padding: 60px 150px;      
+}
+.support_items{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 100px;
+    text-align: center;
+}
+.support_items img{
+    width: 70px;
+    margin-bottom: 20px;
+}
+.support_items p{
+    color: rgba(39, 39, 39, 0.80);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
 }
