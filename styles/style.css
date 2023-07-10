@@ -188,3 +188,18 @@
     line-height: 30px;
     text-decoration-line: underline;
 }
+
+/* Inastagram area styles here */
+
+.insta{
+    margin: 120px 200px;
+}
+.insta_imgs{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 25px;
+}
+.insta_imgs img{
+    max-width: 320px;
+}
