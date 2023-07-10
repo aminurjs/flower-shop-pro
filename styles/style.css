@@ -160,3 +160,31 @@
 .discount img{
     width: 34%;
 }
+
+/* Best Selling area styles here */
+
+.best_sells{
+    margin: 0 200px;    
+}
+.bs_items{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    margin-top: 30px;
+}
+.bs_items img{
+    width: 250px;
+    height: 280px;
+}
+.bs_items p{
+    margin-top: 20px;
+    text-align: center;
+}
+.bs_items p a{
+    color: #272727;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    text-decoration-line: underline;
+}
