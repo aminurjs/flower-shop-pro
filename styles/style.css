@@ -1,0 +1,45 @@
+
+/* Common styles here */
+
+*{
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.primary_btn{
+    padding: 15px 40px;
+    border-radius: 8px;
+    background: #E55473;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    border: 0;
+}
+
+/* header area  styles here*/
+.banner{
+    background: rgba(229, 84, 115, 0.10);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 200px 0;
+    gap: 100px;
+}
+.banner_content{
+    width: 50%;
+}
+.banner_content h1{
+    color: #272727;
+    font-size: 80px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.banner_content p{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+.banner img{
+    max-width: 500px;
+}
