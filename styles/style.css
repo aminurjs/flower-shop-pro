@@ -15,6 +15,10 @@
     font-weight: 700;
     border: 0;
 }
+.primary_btn:hover{
+    background: #cf4361;
+    cursor: pointer;
+}
 
 /* header area  styles here*/
 .banner{
@@ -169,13 +173,13 @@
 .bs_items{
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     gap: 25px;
     margin-top: 30px;
 }
 .bs_items img{
-    width: 250px;
-    height: 280px;
+    width: 300px;
+    height: 320px;
 }
 .bs_items p{
     margin-top: 20px;
@@ -201,5 +205,47 @@
     gap: 25px;
 }
 .insta_imgs img{
-    max-width: 320px;
+    max-width: 20%;
 }
+
+/* Subscription area styles here */
+
+.subscribe{
+    margin: 120px 200px;
+    padding: 120px 280px;
+    border-radius: 8px;
+background: url('../images/subscribe.jpg'), lightgray 0px -203.444px / 100% 213.755% no-repeat;
+}
+.subscribe h2{
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 20px; 
+}
+.subscribe p{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    line-height: 30px;
+    margin-bottom: 40px;
+}
+.subscribe form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+.subscribe form input[type="email"]{
+    border-radius: 8px;
+    background: #FFF;
+    color: #272727;
+    font-size: 16px;
+    padding: 16px;
+    border: 0;
+    width: 80%;
+}
+.subscribe form input[type="email"]::placeholder{
+    color: rgba(39, 39, 39, 0.60);
+}
+
