@@ -249,3 +249,31 @@ background: url('../images/subscribe.jpg'), lightgray 0px -203.444px / 100% 213.
     color: rgba(39, 39, 39, 0.60);
 }
 
+/* Footer area styles here */
+
+.footer_area{
+    background: #111010;
+    padding: 120px 0;
+}
+.footer_area h2{
+    text-align: center;
+    color: #E55473;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.footer_area h2 span{
+    color: #ffffff;
+}
+.footer_area p{
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    font-size: 18px;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+.footer_area p.copyright{
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    font-size: 16px;
+}
