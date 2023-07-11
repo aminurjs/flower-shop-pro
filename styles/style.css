@@ -112,7 +112,7 @@
 .support_items{
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
     gap: 100px;
     text-align: center;
 }
