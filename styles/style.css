@@ -277,3 +277,94 @@
     text-align: center;
     font-size: 16px;
 }
+
+/* Responsive css  */
+
+@media screen and (max-width:576px) {
+    .banner {
+        padding: 50px 10px;
+        gap: 50px;
+        flex-direction: column-reverse;
+    }
+    .banner img {
+        max-width: 350px;
+    }
+    .banner_content h1 {
+        font-size: 50px;
+    }
+    .featured {
+        margin: 30px 10px;
+    }
+    .featured_items {
+        flex-direction: column;
+    }
+    .featured_img {
+        width: 350px;
+        height: 450px;
+    }
+    .featured_img img {
+        height: 80%;
+    }
+    .support {
+        margin: 0;
+        padding: 30px;
+    }
+    .support_items {
+        gap: 50px;
+        flex-direction: column;
+    }
+    .discount {
+        padding: 50px 10px;
+        gap: 50px;
+        margin: 50px 0;
+        flex-direction: column-reverse;
+    }
+    .discount .dis_cont {
+        width: 100%;
+    }
+    .discount .dis_cont h2 {
+        font-size: 30px;
+    }
+    .discount img {
+        width: 60%;
+    }
+    .best_sells {
+        margin: 0;
+        padding: 10px;
+    }
+    .bs_items {
+        justify-content: center;
+        flex-direction: column;
+    }
+    .insta {
+        margin: 50px 10px;
+    }
+    .insta_imgs {
+        flex-direction: column;
+    }
+    .insta_imgs img {
+        max-width: 80%;
+    }
+    .subscribe {
+        margin: 50px 10px;
+        padding: 50px 15px;
+    }
+    .subscribe h2 {
+        font-size: 32px;
+        margin-bottom: 10px;
+    }
+    .subscribe p {
+        font-size: 15px;
+        margin-bottom: 20px;
+    }
+    .subscribe form {
+        flex-direction: column;
+    }
+    .subscribe form .primary_btn {
+        width: 88%;
+        padding: 12px 40px;
+    }
+    .footer_area {
+        padding: 60px 0;
+    }
+}
